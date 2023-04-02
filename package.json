@@ -12,12 +12,15 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "license": "0BSD",
   "dependencies": {
-    "gatsby": "^5.8.1",
+    "gatsby": "^5.9.0-next.2",
+    "gatsby-plugin-sass": "^6.9.0-next.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.60.0"
   }
 }
